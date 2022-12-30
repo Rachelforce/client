@@ -54,12 +54,12 @@ export const FileUploader = ({onSuccess}) => {
             headers: { 'content-type': 'multipart/form-data' }
         }
 
-        axios.post('//5.187.2.214:8000/upload', data,config)
+        axios.post('http//5.187.2.214:8000/upload', data,config)
             .then((response) => {
                 toast.success('Upload Success');
                 async function fetchData() {
                     try {
-                        const res = await axios.get('//5.187.2.214:8000/files');
+                        const res = await axios.get('http//5.187.2.214:8000/files');
                         onSuccess(res.data);
                     } catch (err) {
                         console.log(err);
