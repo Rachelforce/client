@@ -1,0 +1,11 @@
+.App {
+    margin: 8vh;
+    margin-top: 2vh;
+    max-width: 100%;
+}
+.blockTitle{
+
+    text-align: center;
+    vertical-align: center;
+    font-size: 4vh;
+}

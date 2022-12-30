@@ -1,0 +1,62 @@
+.files{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    position:relative;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.files button{
+    margin: auto;
+    border: 1px solid #E7E7E7;/*Цвет Границы(border)*/
+    background: #FFF;
+    border-radius: 3vh;
+    height: 6vh;
+    width: 15vh;
+    font-size: 2vh;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
+}
+
+.files button:hover{
+    background: #f1f1f1;
+}
+
+input::file-selector-button {
+    margin: 3vh;
+    left: 0;
+    font-size: 1.5vh;
+    right: 0;
+    width: 11vh;
+    height: 4vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
+    background: white;
+    border-radius: 6px;
+}
+
+
+.files input {
+   padding-left: 1vh;
+    border: 1px solid #E7E7E7;/*Цвет Границы(border)*/
+    min-height: 3vh;
+    border-radius: 10px 10px 10px 10px;
+    width: 40vh;
+    max-width: 100%;
+    margin-bottom: 4vh;
+}
+.files input[type=file] {
+    width: 100%;
+}
+
+.files label{
+    font-weight: bold;
+    font-size: 2vh;
+    margin-bottom: 1vh;
+}
+.files input[type=file]{
+    min-height: 18vh;
+}
+
+
+.color input{ background-color:#f1f1f1;}

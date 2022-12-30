@@ -1,0 +1,39 @@
+.previewItem{
+    display: table;
+    width: 60vh;
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 2vh;
+    vertical-align: middle;
+    border-radius: 3vh;
+    border: 1px solid #E7E7E7;/*Цвет Границы(border)*/
+}
+.previewItem img{
+    vertical-align: middle;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 2vh;
+    margin: 0.2vh 3vw 0.2vh 0.3vw;
+}
+.previewItem label{
+    flex: 50%;
+    vertical-align: middle;
+    font-size: 2.4vh;
+    align-items: center;
+}
+.previewItem button{
+    background: url("img.png");
+    margin-top: 2vh;
+    margin-right: 2vh;
+    background-size: cover;
+    border: 0;
+    float: right;
+    vertical-align: top;
+    width: 4vh;
+    height: 4vh;
+}
+.previewItem button:hover{
+
+    width: 4.1vh;
+    height: 4.1vh;
+}
