@@ -5,10 +5,10 @@ export const Preview =  ({files,onFilesChange}) => {
 
 
     const deleteItem = (itemName) =>{
-        axios.get('http//5.187.2.214:8000/delete?filename='+itemName);
+        axios.get('http://5.187.2.214:8000/delete?filename='+itemName);
         async function fetchData() {
             try {
-                const res = await axios.get('http//5.187.2.214:8000/files');
+                const res = await axios.get('http://5.187.2.214:8000/files');
                 onFilesChange(res.data);
             } catch (err) {
                 console.log(err);
@@ -20,7 +20,7 @@ export const Preview =  ({files,onFilesChange}) => {
     useEffect( () => {
         async function fetchData() {
             try {
-                const res = await axios.get('http//5.187.2.214:8000/files');
+                const res = await axios.get('http://5.187.2.214:8000/files');
                 onFilesChange(res.data);
             } catch (err) {
                 console.log(err);
