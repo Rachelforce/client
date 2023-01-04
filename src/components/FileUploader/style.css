@@ -24,7 +24,6 @@
 }
 
 input::file-selector-button {
-    display: none;
     background: white;
     margin: 1%;
 }
