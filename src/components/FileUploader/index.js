@@ -80,7 +80,7 @@ export const FileUploader = ({onSuccess}) => {
                 <input type="text"
                        onChange={onNameInputChange}
                        multiple/>
-                <label>Upload your file</label>
+                <label>Upload your .glb file</label>
                 <input type="file"
                        onChange={onFileInputChange}
                        className="form-control"

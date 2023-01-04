@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-        <label className="blockTitle"> Upload new file</label>
+        <label className="blockTitle">Admin panel</label>
       <FileUploader onSuccess={onSuccess}/>
 <label className="blockTitle"> My Files</label>
             <Preview files={files} onFilesChange={onFilesChange}/>
