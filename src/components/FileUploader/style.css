@@ -39,7 +39,7 @@ input::file-selector-button {
 }
 .files input[type=file] {
     font-size: 2vh;
-    padding: 2vh;
+    padding: 1%;
     width: 100%;
 }
 
