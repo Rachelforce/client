@@ -1,7 +1,7 @@
 .previewItem{
-    display: table;
-    width: 60vh;
-    max-width: 100%;
+
+    min-width: 40vh;
+    max-width: max-content;
     padding: 10px;
     margin-top: 2vh;
     vertical-align: middle;
