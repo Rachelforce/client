@@ -23,9 +23,6 @@
     background: #f1f1f1;
 }
 
-input::file-selector-button {
-    display: none;
-}
 
 
 .files input {
@@ -39,7 +36,7 @@ input::file-selector-button {
 }
 .files input[type=file] {
     font-size: 2vh;
-   
+
     width: 100%;
 }
 
