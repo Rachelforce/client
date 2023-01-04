@@ -23,6 +23,11 @@
     background: #f1f1f1;
 }
 
+input::file-selector-button {
+    display: none;
+    background: white;
+    margin: 1%;
+}
 
 
 .files input {
@@ -35,8 +40,6 @@
     margin-bottom: 4vh;
 }
 .files input[type=file] {
-    font-size: 2vh;
-
     width: 100%;
 }
 
