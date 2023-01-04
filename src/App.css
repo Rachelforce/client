@@ -4,8 +4,13 @@
     max-width: 100%;
 }
 .blockTitle{
-
     text-align: center;
     vertical-align: center;
     font-size: 4vh;
+}
+
+.sub{
+    font-size: 2vh;
+    padding: 1vh;
+
 }
