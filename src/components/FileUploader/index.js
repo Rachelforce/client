@@ -54,12 +54,12 @@ export const FileUploader = ({onSuccess}) => {
             headers: { 'content-type': 'multipart/form-data' }
         }
 
-        axios.post('https://server.eto-art.xyz/upload', data,config)
+        axios.post('https://ahg3dserver.web-you.pl/upload', data,config)
             .then((response) => {
                 toast.success('Upload Success');
                 async function fetchData() {
                     try {
-                        const res = await axios.get('https://server.eto-art.xyz/files');
+                        const res = await axios.get('https://ahg3dserver.web-you.pl/files');
                         onSuccess(res.data);
                     } catch (err) {
                         console.log(err);
